@@ -1,0 +1,11 @@
+cask "$caskname" do
+  version "$caskversion"
+  sha256 "$SHA"
+
+  url "$URL"
+  name "$caskname"
+  desc "$caskdescription"
+  homepage "$caskhomepage"
+
+  app "$caskapp"
+end
